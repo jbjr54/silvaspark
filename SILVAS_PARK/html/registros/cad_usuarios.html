@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <link rel="stylesheet" href="../../assets/css/estilo.css">
+    <title>Document</title>
+</head>
+<body>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="container">
+        <form class="form" action="../../php/cad_usuarios.php" method="post">
+            <div class="cabeca_container">
+            <h1> Cadastro de Usuários</h1>
+            </div>
+                <br>
+                <br>
+                <br>
+                <br>
+                <tr>
+                    <td><label for="nome"> Nome completo: </label></td>
+                    <td><input id="nome_comp" name="nome_comp" type="text" required></td>    
+                </tr>
+                <br>
+                <tr>
+                    <td><label for="email" > Email: </label></td>
+                    <td><input id="email" name="email" type="email" required></td>
+                </tr>
+                <br>
+                <tr>
+                    <td><label for="nome_usu"> Nome usuário: </label></td>
+                    <td><input id="nome_usu" name="nome_usu" type="text" required></td>
+                </tr>
+                <br>
+                <tr>
+                    <td><label for="senha"> senha: </label></td>
+                    <td><input id="senha" name="senha" type="password" required></td>
+                </tr>
+                <br>
+                <button type="submit"> Salvar </button>
+        </form>
+
+    </div>    
+</body>
+</html>

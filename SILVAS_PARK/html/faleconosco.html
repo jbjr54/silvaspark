@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <link rel="stylesheet" href="../assets/css/estilo.css">
+    <title>Silva's Park Fale conosco</title>
+</head>
+<body>
+    <br>
+    <br>
+    <br>
+    <br>
+            <form id="form1" method="post" action="enviarEmail.php">
+                <div class="container">
+                    <table width="500" border="0" align="center" cellpadding="0" cellspacing="2">
+                    <div class="cabeca_container">  
+                        <h1>Fale conosco</h1>
+                    </div>    
+                    <div>
+                        <tr>
+                        <td align="right">Nome:</td>
+                        <td><input type="text" name="Nome" id="nome" /></td>
+                        </tr>
+                    </div>
+                    <div>    
+                        <tr>
+                        <td align="right">Assunto:</td>
+                        <td><input type="text" name="Assunto" id="assunto" /></td>
+                        </tr>
+                    </div>
+                    <div>        
+                        <tr>
+                        <td align="right">Mensagem:</td>
+                        <td><textarea name="Mensagem" id="mensagem" cols="30" rows="5"></textarea></td>
+                        </tr>
+                    </div>
+                    </table> 
+                        <td colspan="2" align="center"><input id="botao_enviar" type="submit" value="Enviar" /></td>
+                </div>        
+            </form>
+</body>
+</html>
